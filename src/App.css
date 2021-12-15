@@ -1,3 +1,9 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: wheat;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +41,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.nav li{
+  list-style-type: none;
+  display: inline;
+}
+.nav li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Main-tittle{
+  background-color:black;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.Main-tittle a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
