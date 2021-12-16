@@ -45,7 +45,7 @@ header{
 .nav{
   text-align: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: black;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -58,14 +58,23 @@ header{
   color: white;
   text-decoration: none;
   font-weight: bold;
+  padding: 20px;
+}
+.carrito{
+  color: white;
 }
 .Main-tittle{
   background-color:black;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: 0;
 }
 .Main-tittle a{
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.ProductsTittle{
+  text-align: center;
 }

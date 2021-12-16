@@ -1,10 +1,12 @@
 import React from 'react'
+import CartWidget from './CartWidget'
 
 const NavBar = () => {
     return (
         <nav className="nav">
-            <li><a href="#">RESTAURANT</a></li>
-            <li><a href="#">BARES</a></li>
+            <li><a href="#">FOOD</a></li>
+            <li><a href="#">DRINKS</a></li>
+            <CartWidget/>
         </nav>
     )
 }
