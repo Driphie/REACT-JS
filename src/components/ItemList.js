@@ -1,12 +1,12 @@
 import React from 'react'
 import ItemCount from './ItemCount'
 
-const ItemListContainer2 = (props) => {
+const ItemList = (props) => {
     console.log(props)
     return (
         <div className="card">
             <div className="card__body">
-                <img src={props.img} />
+                <img src={props.img} alt="hamburger"/>
                 <h2 className="card__tittle">{props.tittle}</h2>
                 <p className="card__desc">{props.desc}</p>
                 <h4 className="card__price">{props.price}</h4>
@@ -17,4 +17,4 @@ const ItemListContainer2 = (props) => {
     )
 }
 
-export default ItemListContainer2
+export default ItemList
