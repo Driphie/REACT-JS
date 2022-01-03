@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const Item = ({ id, name, category, image, price }) => {
-  /* aca tenemos nuestro Link */
   return (
     <Link className={'items_box'} to={`/product/${id}`}>
       <div className={`item_card ${category}-category`}>

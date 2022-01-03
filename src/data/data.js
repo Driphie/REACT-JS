@@ -1,8 +1,4 @@
 export const data = [
-    /* id es un STRING
-      necesitan categoria, en este caso se llama category
-      el precio es un numero
-    */
     {
       id: '1',
       name: 'Sweet Onion Simple + Papas Fritas',
